@@ -15,31 +15,43 @@
   </head>
   <body>
     <header class="navbar">
-      <img src="/images/Laura-s-closet.png" alt="logo" class="navbar__logo" />
-      <div class="navbar__search">
-        <img
-          src="/images/Search-icon.svg"
-          alt="Search"
-          class="navbar__search_img"
-        />
-        <span class="navbar__search-text">Search for an item...</span>
-      </div>
+      <img src="/images/Laura-s-closet.svg" alt="logo" class="navbar__logo" />
       <ul class="navbar__list">
-        <li class="navbar__list-element">
-          <a href="#" class="navbar__list_text">Store</a>
+        <li class="navbar__item">
+          <a href="#" class="navbar__link">
+            <img
+              src="/images/Account-icon.svg"
+              alt=""
+              class="navbar__image"
+            />Sign in</a
+          >
         </li>
-        <li class="navbar__list-element">
-          <a href="#" class="navbar__list_text">Acvount</a>
+        <li class="navbar__item">
+          <a href="#" class="navbar__link">
+            <img src="/images/Heart.svg" alt="" class="navbar__image" />Wish
+            List</a
+          >
         </li>
-        <li class="navbar__list-element">
-          <a href="#" class="navbar__list_text">Wish List</a>
-        </li>
-        <li class="navbar__list-element">
-          <a href="#" class="navbar__list_text"
-            >Basket<img src="" alt="Basket" class="navbar__basket-img"
-          /></a>
+        <li class="navbar__item">
+          <a href="#" class="navbar__link"
+            ><img
+              src="/images/Shopping-bag.svg"
+              alt="Basket"
+              class="navbar__image"
+            />Basket</a
+          >
         </li>
       </ul>
+      <form action="#" class="navbar__search">
+        <button class="navbar__button">
+          <img src="/images/Search-icon.svg" alt="Icon: search" />
+          <input
+            type="text"
+            class="navbar__input"
+            placeholder="Search for an item..."
+          />
+        </button>
+      </form>
     </header>
 
     <header class="navbar-menu">

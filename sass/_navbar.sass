@@ -1,2 +1,39 @@
-navbar
-    font-family: $primary-font
+@import '_mixins'
+
+.navbar
+    display: flex
+    background-color: $grey-30
+    padding: 25px 80px
+    justify-content: space-between
+    font-size: 16px
+    &__logo
+        max-width: 172px
+    &__list
+        display: flex
+        list-style-type: none
+    &__link
+        display: flex
+        align-items: center
+        color: $grey-500
+        text-decoration: none
+        margin-right: 20px
+    &__link:hover
+        cursor: pointer
+    &__image
+        margin-right: 3px
+    &__search
+        background-color: none
+        border: none
+    &__button
+        background-color: transparent
+        border: none
+        &:hover
+            cursor: pointer
+    &__input
+        background-color: transparent
+        border: none
+        &:hover
+            border: none
+        &:active 
+            border: none
+        

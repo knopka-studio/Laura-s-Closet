@@ -1,0 +1,50 @@
+.popular
+    padding: 170px 100px 0px 100px
+    &__container
+        padding: 55px 0px 0px 0px
+        display: flex
+        justify-content: space-between
+        width: max-content
+    &__card
+        max-width: 300px
+        margin-right: 10px
+        &:last-child
+            margin-right: 0px
+    &__image
+        object-fit: cover
+        overflow: hidden
+        width: 300px
+        height: 350px
+        position: center
+        margin-bottom: 8px
+    &__title
+        display: block
+        font-weight: 400
+        font-size: 14px
+        line-height: 22px
+        color: $grey-700
+        margin-bottom: 10px
+    &__buy
+        display: flex
+        justify-content: space-between
+        align-items: flex-end
+    &__price
+        &_new
+            font-weight: 600
+            font-size: 16px
+            line-height: 19px
+            color: $grey-700
+            margin-right: 10px
+        &_old
+            font-weight: 300
+            font-size: 16px
+            line-height: 19px
+            text-decoration: line-through
+            color: $grey-400
+    &__add
+        cursor: pointer
+        font-weight: 600
+        font-size: 14px
+        line-height: 16px
+        color: $grey-700
+        margin-right: 10px
